@@ -29,7 +29,7 @@ public class KWApplet extends JApplet implements ActionListener {
 
 	private KWRotator rotator;
 
-	public void init() {
+	public void init() { 
 		rotator = new KWRotator();
 
 		Container content = getContentPane();
